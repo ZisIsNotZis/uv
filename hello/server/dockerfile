@@ -1,0 +1,4 @@
+FROM python
+RUN pip install -ihttps://mirror.baidu.com/pypi/simple uvloop;rm -r ~/.cache
+COPY *.py .
+CMD python .

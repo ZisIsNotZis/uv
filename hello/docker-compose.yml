@@ -1,0 +1,14 @@
+version: '3'
+services:
+  server:
+    image: hello_server
+    networks:
+      - idle
+  client:
+    image: hello_client
+    deploy:
+      replicas: 20
+    networks:
+      - idle
+networks:
+  idle:
