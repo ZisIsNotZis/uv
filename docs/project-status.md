@@ -7,14 +7,17 @@ inspectable instead of rotting. Copied — the original was not modified.
 
 ## Status
 
-See `README.md` for what it is and an honest status line (`deprecated (<year> era)
-- kept as an archive` where applicable).
+Archived — kept as an archive, not maintained. `README.md` is where the current
+facts live: what it is, how to run each experiment, and where it stops. No CI,
+no test suite, no package metadata; the build products under `uring/` are
+compiled locally and kept out of the tree.
 
 ## Evidence
 
 - Source: `~/my/uv` (private archive), copied verbatim except for junk
   binaries, caches and any file that tripped the credential scanner.
-- `README.md` in this repo documents what it is, how to run it and its limits.
+- `README.md` in this repo documents what it is, how to run it and its limits;
+  `CONTRIBUTING.md` states the scope an outside change has to respect.
 
 ## Boundaries
 
